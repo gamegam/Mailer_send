@@ -4,40 +4,4 @@ email: your email
 password: your passworld
 port: 587
 ssl: SSL
-
-html: '
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body {font-family: "Noto Sans KR", sans-serif;background-color: #f0f2f5;display: flex;justify-content: center;align-items: center;height: 100vh;}
-.card {background-color: #ffffff;border-radius: 15px;box-shadow: 0 4px 15px rgba(0,0,0,0.1);width: 400px;max-width: 90%;padding: 25px;transition: transform 0.2s;}
-.card:hover {transform: translateY(-5px);}
-.card h2 {margin-top: 0;color: #333333;font-size: 1.5rem;border-bottom: 1px solid #eee;padding-bottom: 10px;}
-.info {margin: 15px 0;display: flex;flex-direction: column;gap: 5px;color: #555555;font-size: 0.9rem;}
-.info span {font-weight: 500;}
-.content {margin-top: 15px;color: #444444;line-height: 1.6;font-size: 1rem;white-space: pre-line;}
-.footer {margin-top: 20px;text-align: right;color: #888888;font-size: 0.8rem;}
-</style>
-</head>
-<body>
-
-<div class="card">
-  <h2>(subject)</h2>
-  <div class="info">
-    <div><span>sender:</span> (email)</div>
-    
-    <div><span>Date:</span> (time)</div>
-  </div>
-  <div class="content">(content)</div>
-  <div class="footer">
-    Message system
-  </div>
-</div>
-
-</body>
-</html>
-'
 ...
