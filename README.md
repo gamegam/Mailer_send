@@ -12,3 +12,5 @@ Or, you can use AI assistance.
 Once the configuration is complete, you can edit index.html.
 This can also be done with AI assistance.
 
+Virion download: https://github.com/gamegam/PMMP-PHPMailer
+
